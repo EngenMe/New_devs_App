@@ -10,3 +10,6 @@ pre-commit:
 
 uv-install:
 	cd backend && uv sync
+
+check-bug1:
+	./scripts/check_bug1_march_revenue.sh
